@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpoonGitWebApp", "SpoonGitW
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deploy", "Deploy", "{D4AEBDB9-8A42-4CF4-BD08-D4EFA3551394}"
 	ProjectSection(SolutionItems) = preProject
-		spoon.pubxml = spoon.pubxml
+		pub.xml = pub.xml
 	EndProjectSection
 EndProject
 Global
