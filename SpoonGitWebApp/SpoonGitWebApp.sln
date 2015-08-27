@@ -5,9 +5,11 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpoonGitWebApp", "SpoonGitWebApp\SpoonGitWebApp.csproj", "{CA7A8B52-20E4-45FE-96D2-1FCCB6D35C0D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deploy", "Deploy", "{D4AEBDB9-8A42-4CF4-BD08-D4EFA3551394}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{EBAFD55F-2969-41AB-9AE8-C0DFC4D28DF1}"
 	ProjectSection(SolutionItems) = preProject
-		pub.xml = pub.xml
+		build\Microsoft.WebApplication.Build.Tasks.Dll = build\Microsoft.WebApplication.Build.Tasks.Dll
+		build\Microsoft.WebApplication.targets = build\Microsoft.WebApplication.targets
+		build\pub.xml = build\pub.xml
 	EndProjectSection
 EndProject
 Global
